@@ -20,8 +20,8 @@ export function DashboardView({
 }: DashboardViewProps) {
   return (
     <div className="min-h-full overflow-y-auto">
-      <div className="flex items-center justify-between border-b border-border px-4 py-4 md:px-6">
-        <h1 className="text-2xl font-bold tracking-tight text-foreground md:text-[1.75rem]">
+      <div className="flex items-center justify-between border-b border-border px-3 py-3.5 sm:px-4 md:px-6 md:py-4">
+        <h1 className="text-xl font-bold tracking-tight text-foreground sm:text-2xl md:text-[1.75rem]">
           Dashboard
         </h1>
         <Button
@@ -34,9 +34,9 @@ export function DashboardView({
         </Button>
       </div>
 
-      <div className="flex flex-col gap-8 px-4 py-5 md:px-6 lg:flex-row lg:gap-10">
+      <div className="flex flex-col gap-6 px-3 py-4 sm:px-4 md:px-6 md:py-5 lg:flex-row lg:gap-10">
         <div className="min-w-0 flex-1">
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-3">
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 xl:grid-cols-3">
             {courses.map((course, index) => (
               <CourseCard key={course.id} course={course} index={index} />
             ))}

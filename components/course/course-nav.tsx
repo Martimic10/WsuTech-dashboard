@@ -11,9 +11,15 @@ type CourseNavProps = {
   term: string;
   items: CourseNavItem[];
   className?: string;
+  onNavigate?: () => void;
 };
 
-export function CourseNav({ term, items, className }: CourseNavProps) {
+export function CourseNav({
+  term,
+  items,
+  className,
+  onNavigate,
+}: CourseNavProps) {
   const pathname = usePathname();
 
   return (
@@ -38,8 +44,9 @@ export function CourseNav({ term, items, className }: CourseNavProps) {
               <Link
                 key={item.href}
                 href={item.href}
+                onClick={onNavigate}
                 className={cn(
-                  "relative flex items-center gap-2 px-4 py-1.5 text-sm transition-colors",
+                  "relative flex min-h-11 items-center gap-2 px-4 py-2.5 text-sm transition-colors lg:min-h-0 lg:py-1.5",
                   active
                     ? "bg-[#f5f5f5] font-bold text-[#2d3b45]"
                     : "font-medium text-[#0374B5] hover:underline"

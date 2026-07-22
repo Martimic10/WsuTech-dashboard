@@ -29,27 +29,33 @@ type SidebarProps = {
   forceExpanded?: boolean;
 };
 
-function WsuLogo({ compact = false }: { compact?: boolean }) {
+function WsuLogo({
+  compact = false,
+  onNavigate,
+}: {
+  compact?: boolean;
+  onNavigate?: () => void;
+}) {
   return (
     <Link
       href="/"
+      onClick={onNavigate}
       className={cn(
-        "group relative flex items-center justify-center rounded-xl transition-transform hover:scale-[1.03] active:scale-[0.98]",
-        compact ? "p-1" : "px-2 py-1"
+        "group relative flex items-center justify-center rounded-lg transition-transform hover:scale-[1.03] active:scale-[0.98]",
+        compact ? "p-1" : "px-1.5 py-1"
       )}
       aria-label="WSU Tech Dashboard home"
     >
       <span
         className={cn(
-          "absolute inset-0 rounded-xl bg-black/5 opacity-0 transition-opacity group-hover:opacity-100",
-          compact && "rounded-lg"
+          "absolute inset-0 rounded-lg bg-black/5 opacity-0 transition-opacity group-hover:opacity-100"
         )}
       />
       <motion.div
         initial={false}
         animate={{
-          width: compact ? 48 : 76,
-          height: compact ? 34 : 48,
+          width: compact ? 44 : 68,
+          height: compact ? 32 : 44,
         }}
         transition={{ type: "spring", stiffness: 360, damping: 32 }}
         className="relative"
@@ -59,7 +65,7 @@ function WsuLogo({ compact = false }: { compact?: boolean }) {
           alt="WSU Tech"
           fill
           priority
-          sizes="64px"
+          sizes="68px"
           className="object-contain drop-shadow-[0_1px_1px_rgba(0,0,0,0.12)]"
         />
       </motion.div>
@@ -83,10 +89,10 @@ function NavItemContent({
       <span className="relative">
         <Icon
           className={cn("shrink-0", collapsed ? "size-5" : "size-[22px]")}
-          strokeWidth={1.75}
+          strokeWidth={active ? 2 : 1.75}
         />
         {typeof item.badge === "number" && item.badge > 0 && (
-          <span className="absolute -top-1.5 -right-2.5 flex h-4 min-w-4 items-center justify-center rounded-full bg-[#0374B5] px-1 text-[10px] font-bold text-white">
+          <span className="absolute -top-1.5 -right-2.5 flex h-4 min-w-4 items-center justify-center rounded-full bg-[#0374B5] px-1 text-[10px] font-bold text-white shadow-sm">
             {item.badge}
           </span>
         )}
@@ -98,7 +104,10 @@ function NavItemContent({
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -4 }}
             transition={{ duration: 0.15 }}
-            className="text-[11px] font-medium leading-none"
+            className={cn(
+              "max-w-full truncate px-0.5 text-center text-[10px] leading-tight",
+              active ? "font-semibold" : "font-medium"
+            )}
           >
             {item.title}
           </motion.span>
@@ -111,11 +120,11 @@ function NavItemContent({
 
 function navItemClassName(collapsed: boolean, active: boolean) {
   return cn(
-    "relative mx-auto flex w-full flex-col items-center justify-center gap-1 px-1 text-black transition-colors",
-    collapsed ? "py-3" : "py-2.5",
+    "relative mx-1.5 flex w-[calc(100%-0.75rem)] flex-col items-center justify-center gap-1 rounded-md px-1 text-black transition-colors",
+    collapsed ? "py-3" : "min-h-[58px] py-2",
     active
-      ? "bg-white shadow-[inset_0_0_0_1px_rgba(0,0,0,0.04)]"
-      : "hover:bg-black/5"
+      ? "bg-white shadow-[0_1px_2px_rgba(0,0,0,0.08)]"
+      : "hover:bg-black/8 active:bg-black/12"
   );
 }
 
@@ -231,24 +240,23 @@ export function Sidebar({
       <div
         className={cn(
           "flex shrink-0 items-center justify-center border-b border-black/10 bg-white",
-          collapsed ? "h-16 px-1" : "h-[5.25rem] px-2"
+          collapsed ? "h-14 px-1" : "h-[4.75rem] px-1.5"
         )}
       >
-        <WsuLogo compact={collapsed} />
+        <WsuLogo
+          compact={collapsed}
+          onNavigate={() => setMobileOpen(false)}
+        />
       </div>
 
       <ScrollArea className="flex-1">
-        <nav className="flex flex-col py-1">
+        <nav className="flex flex-col gap-0.5 py-2">
           {mainNav.map((item) => (
             <NavLink
               key={item.href}
               item={item}
               collapsed={collapsed}
-              onNavigate={() => {
-                if (item.href !== ACCOUNT_HREF) {
-                  setMobileOpen(false);
-                }
-              }}
+              onNavigate={() => setMobileOpen(false)}
             />
           ))}
         </nav>

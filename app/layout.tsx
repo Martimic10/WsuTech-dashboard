@@ -28,6 +28,12 @@ export const metadata: Metadata = {
     "A modern student portal for courses, assignments, grades, and campus life.",
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover" as const,
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{

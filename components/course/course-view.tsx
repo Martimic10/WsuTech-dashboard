@@ -18,14 +18,14 @@ export function CourseView({ course }: CourseViewProps) {
         { label: "Modules" },
       ]}
     >
-      <div className="flex min-h-full flex-col xl:flex-row">
-        <div className="min-w-0 flex-1 px-4 py-5 md:px-6">
+      <div className="flex min-h-full flex-col lg:flex-row">
+        <div className="min-w-0 flex-1 px-3 py-4 sm:px-4 md:px-6 md:py-5">
           <CourseHome
             announcements={course.announcements}
             modules={course.modules}
           />
         </div>
-        <div className="border-t border-[#e8eaec] px-4 py-5 md:px-6 xl:border-t-0 xl:border-l">
+        <div className="border-t border-[#e8eaec] px-3 py-4 sm:px-4 md:px-6 lg:border-t-0 lg:border-l">
           <CourseAside todos={course.todos} feedback={course.feedback} />
         </div>
       </div>

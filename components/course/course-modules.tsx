@@ -43,8 +43,8 @@ function ModuleItemRow({ item }: { item: CourseModuleItem }) {
       <li className="border-t border-[#e8eaec]">
         <div
           className={cn(
-            "px-4 py-3 text-sm font-bold text-[#2d3b45]",
-            item.indent && "pl-10"
+            "px-3 py-3 text-sm font-bold text-[#2d3b45] sm:px-4",
+            item.indent && "pl-6 sm:pl-10"
           )}
         >
           {item.title}
@@ -59,8 +59,8 @@ function ModuleItemRow({ item }: { item: CourseModuleItem }) {
     <li className="border-t border-[#e8eaec]">
       <div
         className={cn(
-          "flex items-start gap-3 px-4 py-3 hover:bg-[#f8f8f8]",
-          item.indent && "pl-10"
+          "flex items-start gap-2.5 px-3 py-3 hover:bg-[#f8f8f8] sm:gap-3 sm:px-4",
+          item.indent && "pl-6 sm:pl-10"
         )}
       >
         <ModuleItemIcon type={item.type} />
@@ -148,7 +148,7 @@ export function CourseModules({
       {(title || showCollapseToggle) && (
         <div className="mb-1 flex items-start justify-between gap-4">
           {title ? (
-            <h1 className="text-2xl font-bold tracking-tight text-[#2d3b45]">
+            <h1 className="text-xl font-bold tracking-tight text-[#2d3b45] sm:text-2xl">
               {title}
             </h1>
           ) : (

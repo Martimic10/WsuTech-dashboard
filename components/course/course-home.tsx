@@ -25,11 +25,13 @@ function AnnouncementRow({ item }: { item: CourseAnnouncement }) {
       <div className="min-w-0 flex-1">
         <Link
           href="#"
-          className="text-base font-semibold text-[#0374B5] hover:underline"
+          className="break-words text-base font-semibold text-[#0374B5] hover:underline"
         >
           {item.title}
         </Link>
-        <p className="mt-0.5 truncate text-sm text-[#2d3b45]">{item.preview}</p>
+        <p className="mt-0.5 line-clamp-2 text-sm text-[#2d3b45] sm:truncate">
+          {item.preview}
+        </p>
         <p className="mt-1 text-xs text-[#6b7780]">Posted on: {item.postedAt}</p>
       </div>
     </div>
@@ -41,7 +43,7 @@ export function CourseHome({ announcements, modules }: CourseHomeProps) {
     <div className="min-w-0 flex-1 space-y-8">
       <section>
         <div className="mb-1 flex items-start justify-between gap-4">
-          <h1 className="text-2xl font-bold tracking-tight text-[#2d3b45]">
+          <h1 className="text-xl font-bold tracking-tight text-[#2d3b45] sm:text-2xl">
             Recent Announcements
           </h1>
         </div>

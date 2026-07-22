@@ -82,10 +82,94 @@ function AccessibilityToggle({
   );
 }
 
-export function AccountTray({ user }: AccountTrayProps) {
-  const { accountOpen, setAccountOpen } = useSidebar();
+export function AccountPanel({ user }: AccountTrayProps) {
+  const { setAccountOpen } = useSidebar();
   const [highContrast, setHighContrast] = useState(false);
   const [dyslexiaFont, setDyslexiaFont] = useState(false);
+
+  return (
+    <div
+      className="flex h-full min-h-0 w-full flex-col bg-white"
+      id="account-tray"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Account"
+    >
+      <div className="relative flex flex-col items-center px-5 pt-4 pb-5">
+        <Button
+          variant="outline"
+          size="icon-sm"
+          className="absolute top-3 right-3 size-8 rounded-md border-[#c7cdd1] bg-white text-[#2d3b45] shadow-none hover:bg-[#f5f5f5]"
+          onClick={() => setAccountOpen(false)}
+          aria-label="Close"
+        >
+          <X className="size-4" />
+        </Button>
+
+        <div
+          className="mt-2 flex size-[88px] items-center justify-center rounded-full border-[3px] border-[#0374B5] bg-white"
+          aria-hidden
+        >
+          <span className="text-[28px] font-semibold leading-none tracking-tight text-[#0374B5]">
+            {getInitials(user.name)}
+          </span>
+        </div>
+
+        <h2 className="mt-3 text-center text-xl font-bold tracking-tight text-[#2d3b45]">
+          {user.name}
+        </h2>
+
+        <button
+          type="button"
+          className="mt-3 rounded-md border border-[#c7cdd1] bg-[#f5f5f5] px-3.5 py-1 text-sm text-[#2d3b45] transition-colors hover:bg-[#ebebeb]"
+        >
+          Logout
+        </button>
+      </div>
+
+      <div className="mx-5 h-px bg-[#e8eaec]" />
+
+      <ScrollArea className="flex-1">
+        <nav className="flex flex-col gap-3 px-6 py-4">
+          {ACCOUNT_LINKS.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              onClick={() => setAccountOpen(false)}
+              className="text-sm font-medium text-[#0374B5] hover:underline"
+            >
+              {link.label}
+            </Link>
+          ))}
+        </nav>
+
+        <div className="mx-5 h-px bg-[#e8eaec]" />
+
+        <div className="space-y-4 px-6 py-5">
+          <h3 className="text-sm font-bold text-[#2d3b45]">
+            Accessibility Settings
+          </h3>
+          <AccessibilityToggle
+            id="high-contrast"
+            label="Use High Contrast UI"
+            checked={highContrast}
+            onCheckedChange={setHighContrast}
+          />
+          <AccessibilityToggle
+            id="dyslexia-font"
+            label="Use a Dyslexia Friendly Font"
+            checked={dyslexiaFont}
+            onCheckedChange={setDyslexiaFont}
+          />
+        </div>
+      </ScrollArea>
+    </div>
+  );
+}
+
+/** Desktop docked tray that slides out beside the sidebar. */
+export function AccountTray({ user }: AccountTrayProps) {
+  const { accountOpen, setAccountOpen } = useSidebar();
 
   return (
     <AnimatePresence>
@@ -98,7 +182,7 @@ export function AccountTray({ user }: AccountTrayProps) {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.18 }}
-            className="fixed inset-0 z-40 bg-black/20 md:bg-transparent"
+            className="fixed inset-0 z-40 bg-transparent"
             onClick={() => setAccountOpen(false)}
           />
 
@@ -108,79 +192,8 @@ export function AccountTray({ user }: AccountTrayProps) {
             exit={{ x: -16, opacity: 0 }}
             transition={{ type: "spring", stiffness: 380, damping: 34 }}
             className="absolute top-0 bottom-0 left-full z-50 flex w-[280px] flex-col border-r border-[#e8eaec] bg-white shadow-[4px_0_24px_rgba(0,0,0,0.08)]"
-            id="account-tray"
-            role="dialog"
-            aria-modal="true"
-            aria-label="Account"
           >
-            <div className="relative flex flex-col items-center px-5 pt-4 pb-5">
-              <Button
-                variant="outline"
-                size="icon-sm"
-                className="absolute top-3 right-3 size-8 rounded-md border-[#c7cdd1] bg-white text-[#2d3b45] shadow-none hover:bg-[#f5f5f5]"
-                onClick={() => setAccountOpen(false)}
-                aria-label="Close"
-              >
-                <X className="size-4" />
-              </Button>
-
-              <div
-                className="mt-2 flex size-[88px] items-center justify-center rounded-full border-[3px] border-[#0374B5] bg-white"
-                aria-hidden
-              >
-                <span className="text-[28px] font-semibold leading-none tracking-tight text-[#0374B5]">
-                  {getInitials(user.name)}
-                </span>
-              </div>
-
-              <h2 className="mt-3 text-center text-xl font-bold tracking-tight text-[#2d3b45]">
-                {user.name}
-              </h2>
-
-              <button
-                type="button"
-                className="mt-3 rounded-md border border-[#c7cdd1] bg-[#f5f5f5] px-3.5 py-1 text-sm text-[#2d3b45] transition-colors hover:bg-[#ebebeb]"
-              >
-                Logout
-              </button>
-            </div>
-
-            <div className="mx-5 h-px bg-[#e8eaec]" />
-
-            <ScrollArea className="flex-1">
-              <nav className="flex flex-col gap-3 px-6 py-4">
-                {ACCOUNT_LINKS.map((link) => (
-                  <Link
-                    key={link.href}
-                    href={link.href}
-                    onClick={() => setAccountOpen(false)}
-                    className="text-sm font-medium text-[#0374B5] hover:underline"
-                  >
-                    {link.label}
-                  </Link>
-                ))}
-              </nav>
-
-              <div className="mx-5 h-px bg-[#e8eaec]" />
-
-              <div className="space-y-4 px-6 py-5">
-                <h3 className="text-sm font-bold text-[#2d3b45]">
-                  Accessibility Settings
-                </h3>
-                <AccessibilityToggle
-                  id="high-contrast"
-                  label="Use High Contrast UI"
-                  checked={highContrast}
-                  onCheckedChange={setHighContrast}
-                />
-                <AccessibilityToggle
-                  id="dyslexia-font"
-                  label="Use a Dyslexia Friendly Font"
-                  checked={dyslexiaFont}
-                  onCheckedChange={setDyslexiaFont}
-                />
-              </div>
-            </ScrollArea>
+            <AccountPanel user={user} />
           </motion.aside>
         </>
       )}
