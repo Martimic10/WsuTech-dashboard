@@ -26,6 +26,11 @@ export const metadata: Metadata = {
   },
   description:
     "A modern student portal for courses, assignments, grades, and campus life.",
+  icons: {
+    icon: [{ url: "/WSUTech-logo.png", type: "image/png", sizes: "any" }],
+    shortcut: "/WSUTech-logo.png",
+    apple: [{ url: "/WSUTech-logo.png", type: "image/png" }],
+  },
 };
 
 export const viewport = {
@@ -44,6 +49,11 @@ export default function RootLayout({
 
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/WSUTech-logo.png" type="image/png" />
+        <link rel="shortcut icon" href="/WSUTech-logo.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/WSUTech-logo.png" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} min-h-dvh font-sans antialiased`}
       >
