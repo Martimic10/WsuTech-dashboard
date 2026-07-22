@@ -1,0 +1,1069 @@
+{
+  "slug": "pols-101",
+  "code": "POLS-101-001-30142",
+  "title": "American Government",
+  "term": "Summer 2026",
+  "color": "#0374B5",
+  "nav": [
+    { "title": "Home", "href": "/courses/pols-101", "badge": null },
+    { "title": "IgniteAI Search", "href": "/courses/pols-101/search", "badge": null },
+    { "title": "Announcements", "href": "/courses/pols-101/announcements", "badge": null },
+    { "title": "Modules", "href": "/courses/pols-101/modules", "badge": null },
+    { "title": "Grades", "href": "/courses/pols-101/grades", "badge": 5 },
+    { "title": "Panopto Video", "href": "/courses/pols-101/panopto", "badge": null },
+    { "title": "Accredible", "href": "/courses/pols-101/accredible", "badge": null },
+    { "title": "Zoom", "href": "/courses/pols-101/zoom", "badge": null },
+    { "title": "Lucid (Whiteboard)", "href": "/courses/pols-101/lucid", "badge": null },
+    { "title": "Student Course Evaluations", "href": "/courses/pols-101/evaluations", "badge": null },
+    { "title": "Navigate", "href": "/courses/pols-101/navigate", "badge": null },
+    { "title": "View Attendance", "href": "/courses/pols-101/attendance", "badge": null },
+    { "title": "Parchment Badges", "href": "/courses/pols-101/badges", "badge": null },
+    { "title": "Tutor.com", "href": "/courses/pols-101/tutor", "badge": null }
+  ],
+  "announcements": [
+    {
+      "id": "ann_p001",
+      "title": "Exam 2 Study Guide Posted",
+      "preview": "I've uploaded the study guide for Exam 2 covering federalism and civil liberties...",
+      "postedAt": "Jul 18, 2026 at 9:15 AM",
+      "unread": true
+    },
+    {
+      "id": "ann_p002",
+      "title": "Office Hours This Week",
+      "preview": "Office hours will be held Tuesday and Thursday from 2–4pm via Zoom...",
+      "postedAt": "Jul 15, 2026 at 1:00 PM",
+      "unread": false
+    }
+  ],
+  "modules": [
+    {
+      "id": "mod_begin",
+      "title": "Begin Here!",
+      "expanded": true,
+      "items": [
+        {
+          "id": "item_start",
+          "title": "Welcome to American Government",
+          "type": "page",
+          "href": "#"
+        },
+        {
+          "id": "item_how",
+          "title": "How This Course Works",
+          "type": "page",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "mod_info",
+      "title": "Course Information",
+      "expanded": true,
+      "items": [
+        {
+          "id": "item_welcome",
+          "title": "Instructor Introduction",
+          "type": "page",
+          "href": "#"
+        },
+        {
+          "id": "item_syllabus",
+          "title": "Course Syllabus",
+          "type": "link",
+          "href": "#"
+        },
+        {
+          "id": "item_schedule",
+          "title": "Weekly Schedule",
+          "type": "page",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "mod_1",
+      "title": "Module 1: Foundations of American Government 6/1 - 6/7",
+      "expanded": true,
+      "items": [
+        {
+          "id": "m1_overview",
+          "title": "Module 1: Overview/Checklist",
+          "type": "page",
+          "href": "#"
+        },
+        {
+          "id": "m1_intro",
+          "title": "Module 1: Introduction Discussion",
+          "type": "discussion",
+          "href": "#",
+          "meta": "Jun 5  10 pts"
+        },
+        {
+          "id": "m1_disc",
+          "title": "Module 1: Discussion | Why Government Matters",
+          "type": "discussion",
+          "href": "#",
+          "meta": "Jun 7  20 pts",
+          "restricted": true
+        },
+        {
+          "id": "m1_fed",
+          "title": "Module 1: Federalism Reflection",
+          "type": "assignment",
+          "href": "#",
+          "meta": "Jun 7  25 pts"
+        },
+        {
+          "id": "m1_quiz",
+          "title": "Module 1: Constitution Basics Quiz",
+          "type": "assignment",
+          "href": "#",
+          "meta": "Jun 7  20 pts"
+        },
+        {
+          "id": "m1_ch1",
+          "title": "Chapter 1",
+          "type": "header"
+        },
+        {
+          "id": "m1_ch1_notes",
+          "title": "Chapter 1: Notes — American Political Culture",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m1_ch1_pp",
+          "title": "Chapter 1: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m1_ch2",
+          "title": "Chapter 2",
+          "type": "header"
+        },
+        {
+          "id": "m1_ch2_notes",
+          "title": "Chapter 2: Notes — The Constitution",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m1_ch2_pp",
+          "title": "Chapter 2: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m1_video_const",
+          "title": "Video: How the Constitution Was Written",
+          "type": "video",
+          "href": "#"
+        },
+        {
+          "id": "m1_video_fed",
+          "title": "Video: Federalism Explained",
+          "type": "video",
+          "href": "#"
+        },
+        {
+          "id": "m1_ch3",
+          "title": "Chapter 3",
+          "type": "header"
+        },
+        {
+          "id": "m1_ch3_notes",
+          "title": "Chapter 3: Notes — Federalism",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m1_ch3_pp",
+          "title": "Chapter 3: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        }
+      ]
+    },
+    {
+      "id": "mod_2",
+      "title": "Module 2: Civil Liberties & Civil Rights 6/8 - 6/14",
+      "expanded": true,
+      "items": [
+        {
+          "id": "m2_overview",
+          "title": "Module 2: Overview/Checklist",
+          "type": "page",
+          "href": "#"
+        },
+        {
+          "id": "m2_disc",
+          "title": "Module 2: Discussion | Civil Liberties",
+          "type": "discussion",
+          "href": "#",
+          "meta": "Jun 14  20 pts",
+          "restricted": true
+        },
+        {
+          "id": "m2_case",
+          "title": "Module 2: Landmark Case Brief",
+          "type": "assignment",
+          "href": "#",
+          "meta": "Jun 14  25 pts"
+        },
+        {
+          "id": "m2_ch4",
+          "title": "Chapter 4",
+          "type": "header"
+        },
+        {
+          "id": "m2_ch4_notes",
+          "title": "Chapter 4: Notes — Civil Liberties",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m2_ch4_pp",
+          "title": "Chapter 4: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m2_ch5",
+          "title": "Chapter 5",
+          "type": "header"
+        },
+        {
+          "id": "m2_ch5_notes",
+          "title": "Chapter 5: Notes — Civil Rights",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m2_ch5_pp",
+          "title": "Chapter 5: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m2_video_bor",
+          "title": "Video: The Bill of Rights in Everyday Life",
+          "type": "video",
+          "href": "#"
+        },
+        {
+          "id": "m2_video_scotus",
+          "title": "Video: How Landmark Supreme Court Cases Shape Rights",
+          "type": "video",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "mod_3",
+      "title": "Module 3: Public Opinion, Media & Political Culture 6/15 - 6/21",
+      "expanded": true,
+      "items": [
+        {
+          "id": "m3_overview",
+          "title": "Module 3: Overview/Checklist",
+          "type": "page",
+          "href": "#"
+        },
+        {
+          "id": "m3_poll",
+          "title": "Module 3: Public Opinion Poll Analysis",
+          "type": "assignment",
+          "href": "#",
+          "meta": "Jun 21  30 pts"
+        },
+        {
+          "id": "m3_poll_ex",
+          "title": "POLS 101 Poll Analysis Example",
+          "type": "file",
+          "href": "#",
+          "bold": false
+        },
+        {
+          "id": "m3_media",
+          "title": "Module 3: Assignment | Media Bias Comparison",
+          "type": "assignment",
+          "href": "#",
+          "meta": "25 pts"
+        },
+        {
+          "id": "m3_ch6",
+          "title": "Chapter 6",
+          "type": "header"
+        },
+        {
+          "id": "m3_ch6_notes",
+          "title": "Chapter 6: Notes — Public Opinion",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m3_ch6_pp",
+          "title": "Chapter 6: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m3_essay_header",
+          "title": "Policy Brief Project (Read all materials)",
+          "type": "header"
+        },
+        {
+          "id": "m3_essay_inst",
+          "title": "Policy Brief Instructions",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m3_essay_ex",
+          "title": "POLS 101 Policy Brief Student Example",
+          "type": "file",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m3_rubric",
+          "title": "Policy Brief Rubric",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        }
+      ]
+    },
+    {
+      "id": "mod_cite",
+      "title": "How to Cite Political Sources",
+      "expanded": true,
+      "items": [
+        {
+          "id": "cite_video",
+          "title": "Video: APA Style for Government Documents",
+          "type": "video",
+          "href": "#"
+        },
+        {
+          "id": "cite_guide",
+          "title": "Citing the Constitution, Statutes & Court Cases",
+          "type": "page",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "mod_4",
+      "title": "Module 4: Parties, Interest Groups & Elections 6/22 - 6/28",
+      "expanded": true,
+      "items": [
+        {
+          "id": "m4_overview",
+          "title": "Module 4: Overview/Checklist",
+          "type": "page",
+          "href": "#"
+        },
+        {
+          "id": "m4_campaign",
+          "title": "Module 4: Campaign Ad Analysis",
+          "type": "assignment",
+          "href": "#",
+          "meta": "Jun 28  25 pts"
+        },
+        {
+          "id": "m4_parties",
+          "title": "Module 4: Interest Group Profile",
+          "type": "assignment",
+          "href": "#",
+          "meta": "Jun 28  25 pts"
+        },
+        {
+          "id": "m4_ch7",
+          "title": "Chapter 7",
+          "type": "header"
+        },
+        {
+          "id": "m4_ch7_notes",
+          "title": "Chapter 7: Notes — Political Parties",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m4_ch7_pp",
+          "title": "Chapter 7: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m4_ch8",
+          "title": "Chapter 8",
+          "type": "header"
+        },
+        {
+          "id": "m4_ch8_notes",
+          "title": "Chapter 8: Notes — Campaigns & Elections",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m4_ch8_pp",
+          "title": "Chapter 8: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m4_video_elec",
+          "title": "Video: How the Electoral College Works",
+          "type": "video",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "mod_5",
+      "title": "Module 5: Congress 6/29 - 7/5",
+      "expanded": true,
+      "items": [
+        {
+          "id": "m5_overview",
+          "title": "Module 5: Overview/Checklist",
+          "type": "page",
+          "href": "#"
+        },
+        {
+          "id": "m5_disc",
+          "title": "Module 5: Discussion | Representation in Congress",
+          "type": "discussion",
+          "href": "#",
+          "meta": "Jul 5  25 pts",
+          "restricted": true
+        },
+        {
+          "id": "m5_bill",
+          "title": "Module 5: How a Bill Becomes a Law Simulation",
+          "type": "assignment",
+          "href": "#",
+          "meta": "Jul 5  50 pts"
+        },
+        {
+          "id": "m5_bill_ex",
+          "title": "POLS 101 Bill Simulation Example",
+          "type": "file",
+          "href": "#",
+          "bold": false
+        },
+        {
+          "id": "m5_ch9",
+          "title": "Chapter 9",
+          "type": "header"
+        },
+        {
+          "id": "m5_ch9_notes",
+          "title": "Chapter 9: Notes — Congress",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m5_ch9_pp",
+          "title": "Chapter 9: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m5_ch10",
+          "title": "Chapter 10",
+          "type": "header"
+        },
+        {
+          "id": "m5_ch10_notes",
+          "title": "Chapter 10: Notes — The Legislative Process",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m5_ch10_pp",
+          "title": "Chapter 10: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        }
+      ]
+    },
+    {
+      "id": "mod_6",
+      "title": "Module 6: The Presidency & Bureaucracy 7/6 - 7/12",
+      "expanded": true,
+      "items": [
+        {
+          "id": "m6_overview",
+          "title": "Module 6: Overview/Checklist",
+          "type": "page",
+          "href": "#"
+        },
+        {
+          "id": "m6_exec",
+          "title": "Module 6: Executive Order Analysis",
+          "type": "assignment",
+          "href": "#",
+          "meta": "Jul 12  25 pts"
+        },
+        {
+          "id": "m6_agency",
+          "title": "Module 6: Bureaucracy Agency Brief",
+          "type": "assignment",
+          "href": "#",
+          "meta": "Jul 12  25 pts"
+        },
+        {
+          "id": "m6_ch11",
+          "title": "Chapter 11",
+          "type": "header"
+        },
+        {
+          "id": "m6_ch11_notes",
+          "title": "Chapter 11: Notes — The Presidency",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m6_ch11_pp",
+          "title": "Chapter 11: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m6_video_potus",
+          "title": "Video: Powers of the Modern Presidency",
+          "type": "video",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m6_video_cab",
+          "title": "Video: Inside the Cabinet & Executive Branch",
+          "type": "video",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m6_ch12",
+          "title": "Chapter 12",
+          "type": "header"
+        },
+        {
+          "id": "m6_ch12_notes",
+          "title": "Chapter 12: Notes — The Bureaucracy",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m6_ch12_pp",
+          "title": "Chapter 12: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m6_ch13",
+          "title": "Chapter 13",
+          "type": "header"
+        },
+        {
+          "id": "m6_ch13_notes",
+          "title": "Chapter 13: Notes — Domestic & Foreign Policy",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m6_ch13_pp",
+          "title": "Chapter 13: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        }
+      ]
+    },
+    {
+      "id": "mod_7",
+      "title": "Module 7: The Judiciary & Final Project 7/13 - 7/19",
+      "expanded": true,
+      "items": [
+        {
+          "id": "m7_overview",
+          "title": "Module 7: Overview/Checklist",
+          "type": "page",
+          "href": "#"
+        },
+        {
+          "id": "m7_scotus",
+          "title": "Module 7: Supreme Court Case Brief",
+          "type": "assignment",
+          "href": "#",
+          "meta": "Jul 19  25 pts"
+        },
+        {
+          "id": "m7_final",
+          "title": "Module 7: Final Civic Engagement Project",
+          "type": "assignment",
+          "href": "#",
+          "meta": "Jul 19  100 pts"
+        },
+        {
+          "id": "m7_checklist",
+          "title": "Final Project Checklist",
+          "type": "page",
+          "href": "#"
+        },
+        {
+          "id": "m7_apa",
+          "title": "APA Format for Political Science",
+          "type": "page",
+          "href": "#"
+        },
+        {
+          "id": "m7_integrity",
+          "title": "Academic Integrity & Similarity Reports",
+          "type": "page",
+          "href": "#"
+        },
+        {
+          "id": "m7_ch14",
+          "title": "Chapter 14",
+          "type": "header"
+        },
+        {
+          "id": "m7_ch14_notes",
+          "title": "Chapter 14: Notes — The Federal Courts",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m7_ch14_pp",
+          "title": "Chapter 14: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m7_ch15",
+          "title": "Chapter 15",
+          "type": "header"
+        },
+        {
+          "id": "m7_ch15_notes",
+          "title": "Chapter 15: Notes — Civil Liberties Review & Capstone",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m7_ch15_pp",
+          "title": "Chapter 15: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        }
+      ]
+    }
+  ],
+  "todos": [
+    {
+      "id": "ctodo_p001",
+      "title": "Reading Response: Federalism",
+      "courseCode": "POLS-101-001-30142",
+      "dueLabel": "25 points · Jul 24 at 11:59pm",
+      "type": "assignment",
+      "href": "#"
+    },
+    {
+      "id": "ctodo_p002",
+      "title": "Exam 2 Study Guide Posted",
+      "courseCode": "POLS-101-001-30142",
+      "dueLabel": "Jul 18 at 9:15am",
+      "type": "announcement",
+      "href": "#"
+    },
+    {
+      "id": "ctodo_p003",
+      "title": "Discussion: Separation of Powers",
+      "courseCode": "POLS-101-001-30142",
+      "dueLabel": "20 points · Jul 24 at 11:59pm",
+      "type": "assignment",
+      "href": "#"
+    },
+    {
+      "id": "ctodo_p004",
+      "title": "Quiz 3: Congress & the Presidency",
+      "courseCode": "POLS-101-001-30142",
+      "dueLabel": "15 points · Jul 26 at 11:59pm",
+      "type": "assignment",
+      "href": "#"
+    }
+  ],
+  "feedback": [
+    {
+      "id": "cfb_p001",
+      "title": "Quiz 1: Constitution Basics",
+      "courseCode": "POLS-101-001-30142",
+      "scoreLabel": "18 out of 20",
+      "comment": "Solid start—review checks and balances.",
+      "href": "#"
+    },
+    {
+      "id": "cfb_p002",
+      "title": "Discussion: Self Introduction",
+      "courseCode": "POLS-101-001-30142",
+      "scoreLabel": "10 out of 10",
+      "comment": "Great introduction—welcome to the course!",
+      "href": "#"
+    }
+  ],
+  "gradesSummary": {
+    "totalPercent": 90.8,
+    "letterGrade": "A",
+    "weighted": false,
+    "totalPointsLabel": "454.00 / 500.00",
+    "categories": [
+      {
+        "id": "cat_assignments",
+        "name": "Assignments",
+        "percentLabel": "N/A",
+        "pointsLabel": "0.00 / 0.00"
+      },
+      {
+        "id": "cat_assignment",
+        "name": "Assignment",
+        "percentLabel": "91.36%",
+        "pointsLabel": "296.00 / 324.00"
+      },
+      {
+        "id": "cat_discussion",
+        "name": "Discussion",
+        "percentLabel": "89.33%",
+        "pointsLabel": "67.00 / 75.00"
+      },
+      {
+        "id": "cat_quiz",
+        "name": "Quiz",
+        "percentLabel": "91.43%",
+        "pointsLabel": "64.00 / 70.00"
+      },
+      {
+        "id": "cat_exam",
+        "name": "Exam",
+        "percentLabel": "91.00%",
+        "pointsLabel": "91.00 / 100.00"
+      }
+    ]
+  },
+  "grades": [
+    {
+      "id": "grade_p001",
+      "name": "Module 1: Introduction Discussion",
+      "category": "Discussion",
+      "due": "Jun 5 by 11:59pm",
+      "submitted": "Jun 5 at 8:12pm",
+      "status": null,
+      "score": 10,
+      "pointsPossible": 10,
+      "comments": 1
+    },
+    {
+      "id": "grade_p002",
+      "name": "Module 1: Discussion | Why Government Matters",
+      "category": "Discussion",
+      "due": "Jun 7 by 11:59pm",
+      "submitted": "Jun 7 at 9:40pm",
+      "status": null,
+      "score": 18,
+      "pointsPossible": 20,
+      "comments": 1
+    },
+    {
+      "id": "grade_p003",
+      "name": "Module 1: Constitution Basics Quiz",
+      "category": "Quiz",
+      "due": "Jun 7 by 11:59pm",
+      "submitted": "Jun 7 at 6:40pm",
+      "status": null,
+      "score": 18,
+      "pointsPossible": 20,
+      "comments": 0
+    },
+    {
+      "id": "grade_p004",
+      "name": "Module 1: Federalism Reflection",
+      "category": "Assignment",
+      "due": "Jun 7 by 11:59pm",
+      "submitted": "Jun 8 at 9:05am",
+      "status": "late",
+      "score": 22,
+      "pointsPossible": 25,
+      "comments": 1
+    },
+    {
+      "id": "grade_p005",
+      "name": "Module 2: Discussion | Civil Liberties",
+      "category": "Discussion",
+      "due": "Jun 14 by 11:59pm",
+      "submitted": "Jun 14 at 10:22pm",
+      "status": null,
+      "score": 18,
+      "pointsPossible": 20,
+      "comments": 1
+    },
+    {
+      "id": "grade_p006",
+      "name": "Module 2: Landmark Case Brief",
+      "category": "Assignment",
+      "due": "Jun 14 by 11:59pm",
+      "submitted": "Jun 14 at 11:50pm",
+      "status": null,
+      "score": 24,
+      "pointsPossible": 25,
+      "comments": 1
+    },
+    {
+      "id": "grade_p007",
+      "name": "Module 3: Public Opinion Poll Analysis",
+      "category": "Assignment",
+      "due": "Jun 21 by 11:59pm",
+      "submitted": "Jun 21 at 8:15pm",
+      "status": null,
+      "score": 28,
+      "pointsPossible": 30,
+      "comments": 1
+    },
+    {
+      "id": "grade_p008",
+      "name": "Module 3: Assignment | Media Bias Comparison",
+      "category": "Assignment",
+      "due": "Jun 21 by 11:59pm",
+      "submitted": "Jun 22 at 1:10pm",
+      "status": "late",
+      "score": 23,
+      "pointsPossible": 25,
+      "comments": 0
+    },
+    {
+      "id": "grade_p009",
+      "name": "Module 4: Campaign Ad Analysis",
+      "category": "Assignment",
+      "due": "Jun 28 by 11:59pm",
+      "submitted": "Jun 28 at 4:05pm",
+      "status": null,
+      "score": 24,
+      "pointsPossible": 25,
+      "comments": 1
+    },
+    {
+      "id": "grade_p010",
+      "name": "Module 4: Interest Group Profile",
+      "category": "Assignment",
+      "due": "Jun 28 by 11:59pm",
+      "submitted": "Jun 28 at 10:40pm",
+      "status": null,
+      "score": 25,
+      "pointsPossible": 25,
+      "comments": 0
+    },
+    {
+      "id": "grade_p011",
+      "name": "Exam 1: Foundations",
+      "category": "Exam",
+      "due": "Jun 28 by 11:59pm",
+      "submitted": "Jun 28 at 3:15pm",
+      "status": null,
+      "score": 88,
+      "pointsPossible": 100,
+      "comments": 0
+    },
+    {
+      "id": "grade_p012",
+      "name": "Module 5: Discussion | Representation in Congress",
+      "category": "Discussion",
+      "due": "Jul 5 by 11:59pm",
+      "submitted": "Jul 5 at 7:55pm",
+      "status": null,
+      "score": 17,
+      "pointsPossible": 25,
+      "comments": 1
+    },
+    {
+      "id": "grade_p013",
+      "name": "Module 5: How a Bill Becomes a Law Simulation",
+      "category": "Assignment",
+      "due": "Jul 5 by 11:59pm",
+      "submitted": "Jul 5 at 11:20pm",
+      "status": null,
+      "score": 46,
+      "pointsPossible": 50,
+      "comments": 1
+    },
+    {
+      "id": "grade_p014",
+      "name": "Quiz 2: Congress & Elections",
+      "category": "Quiz",
+      "due": "Jul 5 by 11:59pm",
+      "submitted": "Jul 5 at 5:30pm",
+      "status": null,
+      "score": 22,
+      "pointsPossible": 25,
+      "comments": 0
+    },
+    {
+      "id": "grade_p015",
+      "name": "Module 6: Executive Order Analysis",
+      "category": "Assignment",
+      "due": "Jul 12 by 11:59pm",
+      "submitted": "Jul 12 at 2:18pm",
+      "status": null,
+      "score": 25,
+      "pointsPossible": 25,
+      "comments": 1
+    },
+    {
+      "id": "grade_p016",
+      "name": "Module 6: Bureaucracy Agency Brief",
+      "category": "Assignment",
+      "due": "Jul 12 by 11:59pm",
+      "submitted": "Jul 13 at 9:02am",
+      "status": "late",
+      "score": null,
+      "pointsPossible": 25,
+      "comments": 0,
+      "awaitingGrade": true
+    },
+    {
+      "id": "grade_p017",
+      "name": "Quiz 3: Congress & the Presidency",
+      "category": "Quiz",
+      "due": "Jul 12 by 11:59pm",
+      "submitted": "Jul 12 at 6:45pm",
+      "status": null,
+      "score": 22,
+      "pointsPossible": 25,
+      "comments": 0
+    },
+    {
+      "id": "grade_p018",
+      "name": "Module 7: Supreme Court Case Brief",
+      "category": "Assignment",
+      "due": "Jul 19 by 11:59pm",
+      "submitted": "Jul 20 at 10:12am",
+      "status": "late",
+      "score": null,
+      "pointsPossible": 25,
+      "comments": 0,
+      "awaitingGrade": true
+    },
+    {
+      "id": "grade_p019",
+      "name": "Module 7: Final Civic Engagement Project",
+      "category": "Assignment",
+      "due": "Jul 19 by 11:59pm",
+      "submitted": "Jul 20 at 11:40am",
+      "status": "late",
+      "score": null,
+      "pointsPossible": 100,
+      "comments": 0,
+      "awaitingGrade": true
+    },
+    {
+      "id": "grade_p020",
+      "name": "Module 8: Separation of Powers Debate",
+      "category": "Discussion",
+      "due": "Jul 24 by 11:59pm",
+      "submitted": null,
+      "status": null,
+      "score": null,
+      "pointsPossible": 20,
+      "comments": 0
+    },
+    {
+      "id": "grade_p021",
+      "name": "Reading Response: Federalism",
+      "category": "Assignment",
+      "due": "Jul 24 by 11:59pm",
+      "submitted": null,
+      "status": null,
+      "score": null,
+      "pointsPossible": 25,
+      "comments": 0
+    },
+    {
+      "id": "grade_p022",
+      "name": "Module 3: Policy Brief Draft",
+      "category": "Assignment",
+      "due": "",
+      "submitted": null,
+      "status": null,
+      "score": 0,
+      "pointsPossible": 25,
+      "comments": 0
+    }
+  ]
+}

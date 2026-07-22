@@ -1,0 +1,34 @@
+[
+  {
+    "id": "todo_001",
+    "title": "Announcement: Module 6 Assignments",
+    "courseCode": "HIS-120",
+    "dueLabel": "Jul 13 at 10:45am",
+    "type": "announcement",
+    "href": "#"
+  },
+  {
+    "id": "todo_002",
+    "title": "Announcement: Career Fair Next Week",
+    "courseCode": "Career Services",
+    "dueLabel": "Jul 10 at 9:00am",
+    "type": "announcement",
+    "href": "#"
+  },
+  {
+    "id": "todo_003",
+    "title": "Reading Response: Federalism",
+    "courseCode": "POLS-101",
+    "dueLabel": "Jul 24 at 11:59pm",
+    "type": "assignment",
+    "href": "#"
+  },
+  {
+    "id": "todo_004",
+    "title": "Library Orientation Quiz",
+    "courseCode": "Virtual Library",
+    "dueLabel": "Jul 18 at 5:00pm",
+    "type": "assignment",
+    "href": "#"
+  }
+]

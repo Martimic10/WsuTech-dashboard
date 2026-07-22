@@ -1,0 +1,72 @@
+[
+  {
+    "id": "course_001",
+    "name": "HIS-120-001-30091",
+    "subtitle": "United States since 1865",
+    "detail": "Summer 2026",
+    "color": "#C6007E",
+    "thumbnail": "/wsutech-thumbnail.png",
+    "announcements": 3,
+    "href": "/courses/his-120"
+  },
+  {
+    "id": "course_007",
+    "name": "POLS-101-001-30142",
+    "subtitle": "American Government",
+    "detail": "Summer 2026",
+    "color": "#0374B5",
+    "thumbnail": "/wsutech-thumbnail.png",
+    "announcements": 0,
+    "href": "/courses/pols-101"
+  },
+  {
+    "id": "course_002",
+    "name": "Passport to Canvas (Student Training)",
+    "subtitle": "Passport to Canvas (Student Training)",
+    "detail": "",
+    "color": "#00819D",
+    "thumbnail": "/passport-to-canvas.png",
+    "announcements": null,
+    "href": "/courses/passport"
+  },
+  {
+    "id": "course_003",
+    "name": "Sexual Violence, Dating Violence, Stalking and Sexual Harassment",
+    "subtitle": "Sexual Violence, Dating Violence, Stalking and Sexual Harassment",
+    "detail": "",
+    "color": "#2D6A4F",
+    "thumbnail": "/wsutech-thumbnail.png",
+    "announcements": null,
+    "href": "/courses/prevention"
+  },
+  {
+    "id": "course_004",
+    "name": "Tutoring HUB",
+    "subtitle": "Tutoring HUB",
+    "detail": "",
+    "color": "#2D6A4F",
+    "thumbnail": "/tutoring-hub.png",
+    "announcements": null,
+    "href": "/courses/tutoring-hub"
+  },
+  {
+    "id": "course_005",
+    "name": "Virtual Library",
+    "subtitle": "WSU Tech",
+    "detail": "",
+    "color": "#0374B5",
+    "thumbnail": "/library.png",
+    "announcements": 0,
+    "href": "/courses/virtual-library"
+  },
+  {
+    "id": "course_006",
+    "name": "WSU Tech Career Services Hub",
+    "subtitle": "WSU Tech Career Services Hub",
+    "detail": "",
+    "color": "#2D3B45",
+    "thumbnail": "/career-services.png",
+    "announcements": 2,
+    "href": "/courses/career-services"
+  }
+]

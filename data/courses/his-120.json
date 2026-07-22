@@ -1,0 +1,903 @@
+{
+  "slug": "his-120",
+  "code": "HIS-120-001-30091",
+  "title": "United States since 1865",
+  "term": "Summer 2026",
+  "color": "#C6007E",
+  "nav": [
+    { "title": "Home", "href": "/courses/his-120", "badge": null },
+    { "title": "IgniteAI Search", "href": "/courses/his-120/search", "badge": null },
+    { "title": "Announcements", "href": "/courses/his-120/announcements", "badge": null },
+    { "title": "Modules", "href": "/courses/his-120/modules", "badge": null },
+    { "title": "Grades", "href": "/courses/his-120/grades", "badge": 8 },
+    { "title": "Panopto Video", "href": "/courses/his-120/panopto", "badge": null },
+    { "title": "Accredible", "href": "/courses/his-120/accredible", "badge": null },
+    { "title": "Zoom", "href": "/courses/his-120/zoom", "badge": null },
+    { "title": "Lucid (Whiteboard)", "href": "/courses/his-120/lucid", "badge": null },
+    { "title": "Student Course Evaluations", "href": "/courses/his-120/evaluations", "badge": 1 },
+    { "title": "Navigate", "href": "/courses/his-120/navigate", "badge": null },
+    { "title": "View Attendance", "href": "/courses/his-120/attendance", "badge": null },
+    { "title": "Parchment Badges", "href": "/courses/his-120/badges", "badge": null },
+    { "title": "Tutor.com", "href": "/courses/his-120/tutor", "badge": null }
+  ],
+  "announcements": [
+    {
+      "id": "ann_001",
+      "title": "Final Week",
+      "preview": "Well this is the last week...",
+      "postedAt": "Jul 20, 2026 at 7:00 AM",
+      "unread": true
+    }
+  ],
+  "modules": [
+    {
+      "id": "mod_begin",
+      "title": "Begin Here!",
+      "expanded": true,
+      "items": [
+        {
+          "id": "item_start",
+          "title": "Start Your Course Here",
+          "type": "page",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "mod_info",
+      "title": "Course Information",
+      "expanded": true,
+      "items": [
+        {
+          "id": "item_welcome",
+          "title": "Instructor Welcome",
+          "type": "page",
+          "href": "#"
+        },
+        {
+          "id": "item_syllabus",
+          "title": "Course Syllabus",
+          "type": "link",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "mod_1",
+      "title": "Module 1: Era of Transformative Inventions 6/1 - 6/7",
+      "expanded": true,
+      "items": [
+        {
+          "id": "m1_overview",
+          "title": "Module 1: Overview/Checklist",
+          "type": "page",
+          "href": "#"
+        },
+        {
+          "id": "m1_about",
+          "title": "Module 1: All about you!",
+          "type": "discussion",
+          "href": "#",
+          "meta": "Jun 7  10 pts"
+        },
+        {
+          "id": "m1_disc",
+          "title": "Module 1: Discussion | Era of Transformative Inventions",
+          "type": "discussion",
+          "href": "#",
+          "meta": "Jun 7  20 pts",
+          "restricted": true
+        },
+        {
+          "id": "m1_candy",
+          "title": "Module 1: History of Candy",
+          "type": "assignment",
+          "href": "#",
+          "meta": "Jun 7  25 pts"
+        },
+        {
+          "id": "m1_ch16",
+          "title": "Chapter 16",
+          "type": "header"
+        },
+        {
+          "id": "m1_ch16_pp",
+          "title": "Chapter 16: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m1_ch16_notes",
+          "title": "Chapter 16: Notes",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m1_ch17",
+          "title": "Chapter 17",
+          "type": "header"
+        },
+        {
+          "id": "m1_ch17_notes",
+          "title": "Chapter 17: Notes",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m1_ch17_pp",
+          "title": "Chapter 17: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m1_video_buffalo",
+          "title": "Video: The Truth About The Buffalo Soldiers",
+          "type": "video",
+          "href": "#"
+        },
+        {
+          "id": "m1_video_gold",
+          "title": "Video: The Start of the California Gold Rush (1849)",
+          "type": "video",
+          "href": "#"
+        },
+        {
+          "id": "m1_ch19",
+          "title": "Chapter 19",
+          "type": "header"
+        },
+        {
+          "id": "m1_ch19_notes",
+          "title": "Chapter 19: Notes",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m1_ch19_pp",
+          "title": "Chapter 19: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        }
+      ]
+    },
+    {
+      "id": "mod_2",
+      "title": "Module 2: Urbanization 6/8 - 6/14",
+      "expanded": true,
+      "items": [
+        {
+          "id": "m2_overview",
+          "title": "Module 2: Overview/Checklist",
+          "type": "page",
+          "href": "#"
+        },
+        {
+          "id": "m2_disc",
+          "title": "Module 2: Discussion | Urbanization",
+          "type": "discussion",
+          "href": "#",
+          "meta": "Jun 14  20 pts",
+          "restricted": true
+        },
+        {
+          "id": "m2_poem",
+          "title": "Module 2: Assignment | Gilded Age-Create a Poem",
+          "type": "assignment",
+          "href": "#",
+          "meta": "Jun 14  25 pts"
+        },
+        {
+          "id": "m2_ch20",
+          "title": "Chapter 20",
+          "type": "header"
+        },
+        {
+          "id": "m2_ch20_notes",
+          "title": "Chapter 20: Notes",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m2_ch20_pp",
+          "title": "Chapter 20: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m2_ch21",
+          "title": "Chapter 21",
+          "type": "header"
+        },
+        {
+          "id": "m2_ch21_notes",
+          "title": "Chapter 21: Notes",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m2_ch21_pp",
+          "title": "Chapter 21: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        }
+      ]
+    },
+    {
+      "id": "mod_3",
+      "title": "Module 3: Analytical Essay 6/15 - 6/21",
+      "expanded": true,
+      "items": [
+        {
+          "id": "m3_overview",
+          "title": "Module 3: Overview/Checklist",
+          "type": "page",
+          "href": "#"
+        },
+        {
+          "id": "m3_bib",
+          "title": "Module 3: Analytical Essay Annotated Bibliography",
+          "type": "assignment",
+          "href": "#",
+          "meta": "Jun 21  30 pts"
+        },
+        {
+          "id": "m3_bib_ex",
+          "title": "HIS 120 Annotated Bibliography Example",
+          "type": "file",
+          "href": "#",
+          "bold": false
+        },
+        {
+          "id": "m3_cartoon",
+          "title": "Module 3: Assignment | Political Cartoon Analysis",
+          "type": "assignment",
+          "href": "#",
+          "meta": "25 pts"
+        },
+        {
+          "id": "m3_ch22",
+          "title": "Chapter 22",
+          "type": "header"
+        },
+        {
+          "id": "m3_ch22_notes",
+          "title": "Chapter 22: Notes",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m3_ch22_pp",
+          "title": "Chapter 22: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m3_essay_header",
+          "title": "Analytical Final Essay (Read all materials)",
+          "type": "header"
+        },
+        {
+          "id": "m3_essay_inst",
+          "title": "Final Analytical Essay Instructions",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m3_word_hist",
+          "title": "Word Version History Instructions",
+          "type": "file",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m3_essay_ex",
+          "title": "HIS 120 Analytical Essay Student Example",
+          "type": "file",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m3_rubric",
+          "title": "Analytical Essay Rubric",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        }
+      ]
+    },
+    {
+      "id": "mod_mla",
+      "title": "How to do MLA Format",
+      "expanded": true,
+      "items": [
+        {
+          "id": "mla_video",
+          "title": "Video: MLA 8th or 9th Basic Format of Works Cited Page",
+          "type": "video",
+          "href": "#"
+        },
+        {
+          "id": "mla_essay",
+          "title": "Analytical Final Essay (Read all materials) - MLA Format",
+          "type": "page",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "mod_4",
+      "title": "Module 4: World War I | Jazz Age 6/22 - 6/28",
+      "expanded": true,
+      "items": [
+        {
+          "id": "m4_overview",
+          "title": "Module 4: Overview/Checklist",
+          "type": "page",
+          "href": "#"
+        },
+        {
+          "id": "m4_poster",
+          "title": "Module 4: World War I Propaganda Poster",
+          "type": "assignment",
+          "href": "#",
+          "meta": "Jun 28  25 pts"
+        },
+        {
+          "id": "m4_jazz",
+          "title": "Module 4: Jazz Age Video Summary",
+          "type": "assignment",
+          "href": "#",
+          "meta": "Jun 28  25 pts"
+        },
+        {
+          "id": "m4_ch23",
+          "title": "Chapter 23",
+          "type": "header"
+        },
+        {
+          "id": "m4_ch23_notes",
+          "title": "Chapter 23: Notes",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m4_ch23_pp",
+          "title": "Chapter 23: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m4_ch24",
+          "title": "Chapter 24",
+          "type": "header"
+        },
+        {
+          "id": "m4_ch24_notes",
+          "title": "Chapter 24: Notes",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        }
+      ]
+    },
+    {
+      "id": "mod_5",
+      "title": "Module 5: World War II 6/29 - 7/5",
+      "expanded": true,
+      "items": [
+        {
+          "id": "m5_overview",
+          "title": "Module 5: Overview/Checklist",
+          "type": "page",
+          "href": "#"
+        },
+        {
+          "id": "m5_disc",
+          "title": "Module 5: Discussion | The Start of World War II",
+          "type": "discussion",
+          "href": "#",
+          "meta": "Jul 5  25 pts",
+          "restricted": true
+        },
+        {
+          "id": "m5_patent",
+          "title": "Module 5: Patent Commercial",
+          "type": "assignment",
+          "href": "#",
+          "meta": "Jul 5  50 pts"
+        },
+        {
+          "id": "m5_razor",
+          "title": "HIS120 Disposable Razor Commercial Example",
+          "type": "file",
+          "href": "#",
+          "bold": false
+        },
+        {
+          "id": "m5_ch25",
+          "title": "Chapter 25",
+          "type": "header"
+        },
+        {
+          "id": "m5_ch25_notes",
+          "title": "Chapter 25: Notes",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m5_ch25_pp",
+          "title": "Chapter 25: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m5_ch26",
+          "title": "Chapter 26",
+          "type": "header"
+        },
+        {
+          "id": "m5_ch26_notes",
+          "title": "Chapter 26: Notes",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m5_ch26_pp",
+          "title": "Chapter 26: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        }
+      ]
+    },
+    {
+      "id": "mod_6",
+      "title": "Module 6: Hollywood Blacklist 7/6 - 7/12",
+      "expanded": true,
+      "items": [
+        {
+          "id": "m6_overview",
+          "title": "Module 6: Overview/Checklist",
+          "type": "page",
+          "href": "#"
+        },
+        {
+          "id": "m6_editorial",
+          "title": "Module 6: Editorial",
+          "type": "assignment",
+          "href": "#",
+          "meta": "Jul 12  25 pts"
+        },
+        {
+          "id": "m6_summary",
+          "title": "Module 6: Hollywood Blacklist Summary",
+          "type": "assignment",
+          "href": "#",
+          "meta": "Jul 12  25 pts"
+        },
+        {
+          "id": "m6_ch27",
+          "title": "Chapter 27",
+          "type": "header"
+        },
+        {
+          "id": "m6_ch27_notes",
+          "title": "Chapter 27: Notes",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m6_ch27_pp",
+          "title": "Chapter 27: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m6_video_rosie",
+          "title": "Video: Connie Palacioz | Rosie the Riveter",
+          "type": "video",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m6_video_witches",
+          "title": "Video: The Night Witches and World War II",
+          "type": "video",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m6_video_blacklist",
+          "title": "Video: What is the Hollywood Blacklist?",
+          "type": "video",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m6_ch28",
+          "title": "Chapter 28",
+          "type": "header"
+        },
+        {
+          "id": "m6_ch28_notes",
+          "title": "Chapter 28: Notes",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m6_ch28_pp",
+          "title": "Chapter 28: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m6_ch29",
+          "title": "Chapter 29",
+          "type": "header"
+        },
+        {
+          "id": "m6_ch29_notes",
+          "title": "Chapter 29: Notes",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m6_ch29_pp",
+          "title": "Chapter 29: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        }
+      ]
+    },
+    {
+      "id": "mod_7",
+      "title": "Module 7: 1960s-1990s 7/13 - 7/19",
+      "expanded": true,
+      "items": [
+        {
+          "id": "m7_overview",
+          "title": "Module 7: Overview/Checklist",
+          "type": "page",
+          "href": "#"
+        },
+        {
+          "id": "m7_culture",
+          "title": "Module 7: Culture Wars in America",
+          "type": "assignment",
+          "href": "#",
+          "meta": "Jul 19  25 pts"
+        },
+        {
+          "id": "m7_essay",
+          "title": "Module 7: KB Final Essay",
+          "type": "assignment",
+          "href": "#",
+          "meta": "Jul 19  100 pts"
+        },
+        {
+          "id": "m7_checklist",
+          "title": "Essay Checklist",
+          "type": "page",
+          "href": "#"
+        },
+        {
+          "id": "m7_mla",
+          "title": "MLA Format",
+          "type": "page",
+          "href": "#"
+        },
+        {
+          "id": "m7_copyleaks",
+          "title": "CopyLeaks: How to Access and Read Your Similarity Report",
+          "type": "page",
+          "href": "#"
+        },
+        {
+          "id": "m7_ch30",
+          "title": "Chapter 30",
+          "type": "header"
+        },
+        {
+          "id": "m7_ch30_notes",
+          "title": "Chapter 30: Notes",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        },
+        {
+          "id": "m7_ch30_pp",
+          "title": "Chapter 30: PowerPoint",
+          "type": "page",
+          "href": "#",
+          "indent": true,
+          "bold": false
+        }
+      ]
+    }
+  ],
+  "todos": [
+    {
+      "id": "ctodo_001",
+      "title": "No Title",
+      "courseCode": "HIS-120-001-30091",
+      "dueLabel": "100 points · Jul 20 at 11:59pm",
+      "type": "assignment",
+      "href": "#"
+    },
+    {
+      "id": "ctodo_002",
+      "title": "Final Week",
+      "courseCode": "HIS-120-001-30091",
+      "dueLabel": "Jul 20 at 7:00am",
+      "type": "announcement",
+      "href": "#"
+    },
+    {
+      "id": "ctodo_003",
+      "title": "Module 8: 9/11 Memorial Museum",
+      "courseCode": "HIS-120-001-30091",
+      "dueLabel": "25 points · Jul 22 at 11:59pm",
+      "type": "assignment",
+      "href": "#"
+    },
+    {
+      "id": "ctodo_004",
+      "title": "Module 8: Obama Presidency",
+      "courseCode": "HIS-120-001-30091",
+      "dueLabel": "25 points · Jul 24 at 11:59pm",
+      "type": "assignment",
+      "href": "#"
+    }
+  ],
+  "feedback": [
+    {
+      "id": "cfb_001",
+      "title": "Module 6: Hollywood Blacklist Summary",
+      "courseCode": "HIS-120-001-30091",
+      "scoreLabel": "25 out of 25",
+      "comment": "Well done with response.",
+      "href": "#"
+    }
+  ],
+  "gradesSummary": {
+    "totalPercent": 88.75,
+    "letterGrade": "B",
+    "weighted": false,
+    "totalPointsLabel": "293.00 / 330.00",
+    "categories": [
+      {
+        "id": "cat_assignments",
+        "name": "Assignments",
+        "percentLabel": "N/A",
+        "pointsLabel": "0.00 / 0.00"
+      },
+      {
+        "id": "cat_assignment",
+        "name": "Assignment",
+        "percentLabel": "92.55%",
+        "pointsLabel": "236.00 / 255.00"
+      },
+      {
+        "id": "cat_discussion",
+        "name": "Discussion",
+        "percentLabel": "76.00%",
+        "pointsLabel": "57.00 / 75.00"
+      }
+    ]
+  },
+  "grades": [
+    {
+      "id": "grade_001",
+      "name": "Module 1: All about you!",
+      "category": "Discussion",
+      "due": "Jun 7 by 11:59pm",
+      "submitted": "Jun 8 at 10:53am",
+      "status": "late",
+      "score": 8,
+      "pointsPossible": 10,
+      "comments": 1
+    },
+    {
+      "id": "grade_002",
+      "name": "Module 1: Discussion | Era of Transformative Inventions",
+      "category": "Discussion",
+      "due": "Jun 7 by 11:59pm",
+      "submitted": null,
+      "status": null,
+      "score": 0,
+      "pointsPossible": 20,
+      "comments": 0
+    },
+    {
+      "id": "grade_003",
+      "name": "Module 1: History of Candy",
+      "category": "Assignment",
+      "due": "Jun 7 by 11:59pm",
+      "submitted": "Jun 8 at 12:20pm",
+      "status": "late",
+      "score": 25,
+      "pointsPossible": 25,
+      "comments": 1
+    },
+    {
+      "id": "grade_004",
+      "name": "Module 2: Assignment | Gilded Age-Create a Poem",
+      "category": "Assignment",
+      "due": "Jun 14 by 11:59pm",
+      "submitted": "Jun 15 at 2:22pm",
+      "status": "late",
+      "score": 25,
+      "pointsPossible": 25,
+      "comments": 1
+    },
+    {
+      "id": "grade_005",
+      "name": "Module 2: Discussion | Labor and Industry",
+      "category": "Discussion",
+      "due": "Jun 14 by 11:59pm",
+      "submitted": "Jun 14 at 9:05pm",
+      "status": null,
+      "score": 18,
+      "pointsPossible": 20,
+      "comments": 1
+    },
+    {
+      "id": "grade_006",
+      "name": "Module 3: Progressive Era Reflection",
+      "category": "Assignment",
+      "due": "Jun 21 by 11:59pm",
+      "submitted": "Jun 21 at 11:40pm",
+      "status": null,
+      "score": 23,
+      "pointsPossible": 25,
+      "comments": 0
+    },
+    {
+      "id": "grade_006b",
+      "name": "Module 4: Jazz Age Video Summary",
+      "category": "Assignment",
+      "due": "Jun 28 by 11:59pm",
+      "submitted": "Jun 28 at 9:41am",
+      "status": null,
+      "score": 25,
+      "pointsPossible": 25,
+      "comments": 1
+    },
+    {
+      "id": "grade_007",
+      "name": "Module 4: WWI Homefront Quiz",
+      "category": "Quiz",
+      "due": "Jun 28 by 11:59pm",
+      "submitted": "Jun 28 at 4:12pm",
+      "status": null,
+      "score": 17,
+      "pointsPossible": 20,
+      "comments": 0
+    },
+    {
+      "id": "grade_008",
+      "name": "Module 6: Hollywood Blacklist Summary",
+      "category": "Assignment",
+      "due": "Jul 12 by 11:59pm",
+      "submitted": "Jul 12 at 11:37am",
+      "status": null,
+      "score": 25,
+      "pointsPossible": 25,
+      "comments": 1
+    },
+    {
+      "id": "grade_009",
+      "name": "Module 7: Culture Wars in America",
+      "category": "Assignment",
+      "due": "Jul 19 by 11:59pm",
+      "submitted": "Jul 20 at 10:47am",
+      "status": "late",
+      "score": null,
+      "pointsPossible": 25,
+      "comments": 0,
+      "awaitingGrade": true
+    },
+    {
+      "id": "grade_010",
+      "name": "Module 7: KB Final Essay",
+      "category": "Assignment",
+      "due": "Jul 19 by 11:59pm",
+      "submitted": "Jul 20 at 10:57am",
+      "status": "late",
+      "score": null,
+      "pointsPossible": 100,
+      "comments": 0,
+      "awaitingGrade": true
+    },
+    {
+      "id": "grade_011",
+      "name": "Module 8: 9/11 Memory and Media Project",
+      "category": "Assignment",
+      "due": "Jul 24 by 11:59pm",
+      "submitted": null,
+      "status": null,
+      "score": null,
+      "pointsPossible": 50,
+      "comments": 0
+    },
+    {
+      "id": "grade_012",
+      "name": "Module 8: Obama Presidency",
+      "category": "Assignment",
+      "due": "Jul 24 by 11:59pm",
+      "submitted": null,
+      "status": null,
+      "score": null,
+      "pointsPossible": 25,
+      "comments": 0
+    },
+    {
+      "id": "grade_013",
+      "name": "Module 3: Assignment | Political Cartoon Analysis",
+      "category": "Assignment",
+      "due": "",
+      "submitted": null,
+      "status": null,
+      "score": 0,
+      "pointsPossible": 25,
+      "comments": 0
+    }
+  ]
+}

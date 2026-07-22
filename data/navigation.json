@@ -1,0 +1,40 @@
+{
+  "main": [
+    {
+      "title": "Account",
+      "href": "/account",
+      "icon": "User"
+    },
+    {
+      "title": "Dashboard",
+      "href": "/",
+      "icon": "Gauge"
+    },
+    {
+      "title": "Courses",
+      "href": "/courses",
+      "icon": "BookOpen"
+    },
+    {
+      "title": "Calendar",
+      "href": "/calendar",
+      "icon": "CalendarDays"
+    },
+    {
+      "title": "Inbox",
+      "href": "/inbox",
+      "icon": "Inbox"
+    },
+    {
+      "title": "History",
+      "href": "/history",
+      "icon": "History",
+      "badge": 5
+    },
+    {
+      "title": "Help",
+      "href": "/help",
+      "icon": "CircleHelp"
+    }
+  ]
+}

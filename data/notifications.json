@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ntf_001",
+    "title": "New assignment posted",
+    "description": "CS 240 — API Design Lab is due Friday.",
+    "createdAt": "2026-07-20T08:30:00.000Z",
+    "read": false,
+    "type": "assignment"
+  },
+  {
+    "id": "ntf_002",
+    "title": "Grade published",
+    "description": "Your Midterm Exam score is now available.",
+    "createdAt": "2026-07-19T16:12:00.000Z",
+    "read": false,
+    "type": "grade"
+  },
+  {
+    "id": "ntf_003",
+    "title": "Campus announcement",
+    "description": "Library hours extended during finals week.",
+    "createdAt": "2026-07-18T11:00:00.000Z",
+    "read": true,
+    "type": "announcement"
+  }
+]
