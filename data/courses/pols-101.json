@@ -731,27 +731,11 @@
   ],
   "todos": [
     {
-      "id": "ctodo_p001",
-      "title": "Reading Response: Federalism",
-      "courseCode": "POLS-101-001-30142",
-      "dueLabel": "25 points · Jul 24 at 11:59pm",
-      "type": "assignment",
-      "href": "#"
-    },
-    {
       "id": "ctodo_p002",
       "title": "Exam 2 Study Guide Posted",
       "courseCode": "POLS-101-001-30142",
       "dueLabel": "Jul 18 at 9:15am",
       "type": "announcement",
-      "href": "#"
-    },
-    {
-      "id": "ctodo_p003",
-      "title": "Discussion: Separation of Powers",
-      "courseCode": "POLS-101-001-30142",
-      "dueLabel": "20 points · Jul 24 at 11:59pm",
-      "type": "assignment",
       "href": "#"
     },
     {
@@ -764,6 +748,22 @@
     }
   ],
   "feedback": [
+    {
+      "id": "cfb_p003",
+      "title": "Module 8: Separation of Powers Project",
+      "courseCode": "POLS-101-001-30142",
+      "scoreLabel": "50 out of 50",
+      "comment": "Strong analysis—full credit.",
+      "href": "#"
+    },
+    {
+      "id": "cfb_p004",
+      "title": "Reading Response: Federalism",
+      "courseCode": "POLS-101-001-30142",
+      "scoreLabel": "25 out of 25",
+      "comment": "Thorough and well organized.",
+      "href": "#"
+    },
     {
       "id": "cfb_p001",
       "title": "Quiz 1: Constitution Basics",
@@ -782,10 +782,10 @@
     }
   ],
   "gradesSummary": {
-    "totalPercent": 90.8,
+    "totalPercent": 92.0,
     "letterGrade": "A",
     "weighted": false,
-    "totalPointsLabel": "454.00 / 500.00",
+    "totalPointsLabel": "529.00 / 575.00",
     "categories": [
       {
         "id": "cat_assignments",
@@ -796,8 +796,8 @@
       {
         "id": "cat_assignment",
         "name": "Assignment",
-        "percentLabel": "91.36%",
-        "pointsLabel": "296.00 / 324.00"
+        "percentLabel": "92.98%",
+        "pointsLabel": "371.00 / 399.00"
       },
       {
         "id": "cat_discussion",
@@ -1034,25 +1034,25 @@
     },
     {
       "id": "grade_p020",
-      "name": "Module 8: Separation of Powers Debate",
-      "category": "Discussion",
+      "name": "Module 8: Separation of Powers Project",
+      "category": "Assignment",
       "due": "Jul 24 by 11:59pm",
-      "submitted": null,
+      "submitted": "Jul 24 at 7:55pm",
       "status": null,
-      "score": null,
-      "pointsPossible": 20,
-      "comments": 0
+      "score": 50,
+      "pointsPossible": 50,
+      "comments": 1
     },
     {
       "id": "grade_p021",
       "name": "Reading Response: Federalism",
       "category": "Assignment",
       "due": "Jul 24 by 11:59pm",
-      "submitted": null,
+      "submitted": "Jul 24 at 8:30pm",
       "status": null,
-      "score": null,
+      "score": 25,
       "pointsPossible": 25,
-      "comments": 0
+      "comments": 1
     },
     {
       "id": "grade_p022",

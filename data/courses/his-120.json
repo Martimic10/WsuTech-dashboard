@@ -675,7 +675,7 @@
   "todos": [
     {
       "id": "ctodo_001",
-      "title": "No Title",
+      "title": "Module 7: KB Final Essay",
       "courseCode": "HIS-120-001-30091",
       "dueLabel": "100 points · Jul 20 at 11:59pm",
       "type": "assignment",
@@ -688,25 +688,25 @@
       "dueLabel": "Jul 20 at 7:00am",
       "type": "announcement",
       "href": "#"
-    },
-    {
-      "id": "ctodo_003",
-      "title": "Module 8: 9/11 Memorial Museum",
-      "courseCode": "HIS-120-001-30091",
-      "dueLabel": "25 points · Jul 22 at 11:59pm",
-      "type": "assignment",
-      "href": "#"
-    },
-    {
-      "id": "ctodo_004",
-      "title": "Module 8: Obama Presidency",
-      "courseCode": "HIS-120-001-30091",
-      "dueLabel": "25 points · Jul 24 at 11:59pm",
-      "type": "assignment",
-      "href": "#"
     }
   ],
   "feedback": [
+    {
+      "id": "cfb_003",
+      "title": "Module 8: 9/11 Memory and Media Project",
+      "courseCode": "HIS-120-001-30091",
+      "scoreLabel": "50 out of 50",
+      "comment": "Excellent work—full credit.",
+      "href": "#"
+    },
+    {
+      "id": "cfb_002",
+      "title": "Module 8: Obama Presidency",
+      "courseCode": "HIS-120-001-30091",
+      "scoreLabel": "25 out of 25",
+      "comment": "Clear and complete response.",
+      "href": "#"
+    },
     {
       "id": "cfb_001",
       "title": "Module 6: Hollywood Blacklist Summary",
@@ -717,10 +717,10 @@
     }
   ],
   "gradesSummary": {
-    "totalPercent": 88.75,
-    "letterGrade": "B",
+    "totalPercent": 90.86,
+    "letterGrade": "A",
     "weighted": false,
-    "totalPointsLabel": "293.00 / 330.00",
+    "totalPointsLabel": "368.00 / 405.00",
     "categories": [
       {
         "id": "cat_assignments",
@@ -731,8 +731,8 @@
       {
         "id": "cat_assignment",
         "name": "Assignment",
-        "percentLabel": "92.55%",
-        "pointsLabel": "236.00 / 255.00"
+        "percentLabel": "94.24%",
+        "pointsLabel": "311.00 / 330.00"
       },
       {
         "id": "cat_discussion",
@@ -871,22 +871,22 @@
       "name": "Module 8: 9/11 Memory and Media Project",
       "category": "Assignment",
       "due": "Jul 24 by 11:59pm",
-      "submitted": null,
+      "submitted": "Jul 24 at 8:42pm",
       "status": null,
-      "score": null,
+      "score": 50,
       "pointsPossible": 50,
-      "comments": 0
+      "comments": 1
     },
     {
       "id": "grade_012",
       "name": "Module 8: Obama Presidency",
       "category": "Assignment",
       "due": "Jul 24 by 11:59pm",
-      "submitted": null,
+      "submitted": "Jul 24 at 9:15pm",
       "status": null,
-      "score": null,
+      "score": 25,
       "pointsPossible": 25,
-      "comments": 0
+      "comments": 1
     },
     {
       "id": "grade_013",
